@@ -110,7 +110,6 @@ app.get('/api/payments/:userId', (req, res) => {
   res.status(200).json(filteredPayments);
 });
 app.put('/api/payments', (req, res) => {
-  const existingPayment = req.body;
   // TO DO: Check if payment exists. If it does not, return an appropriate response.
 
   // TO DO: Only process if payment status is overdue. Otherwise return an error message.
