@@ -1,0 +1,22 @@
+.Client-row {
+  padding: 20px;
+  cursor: pointer;
+}
+
+/*
+  Give some status indication when a user hovers over a client
+*/
+
+/*
+  Give some status indication when a client is selected
+*/
+
+.Client-row > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Client-row > img {
+  width: 100px;
+  margin-right: 30px;
+}

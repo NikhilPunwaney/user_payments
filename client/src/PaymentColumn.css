@@ -1,0 +1,21 @@
+.Payment-col > select {
+  width: 60%;
+}
+
+.Payment-row {
+  padding: 20px;
+  cursor: pointer;
+}
+
+/*
+  Give some status indication when a user hovers over a payment
+*/
+
+/*
+  Give some status indication when a payment is selected
+*/
+
+.Payment-row > * {
+  display: inline-block;
+  vertical-align: middle;
+}
